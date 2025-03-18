@@ -7,4 +7,4 @@ app.include_router(auth_router, prefix="/auth")
 
 @app.get("/")
 async def root():
-    return {"message": "Bem vindo ao módulo de autenticação"}
+    return {"message": "auth model"}
